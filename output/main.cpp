@@ -14,12 +14,17 @@ int getTheAnswer() {
     return 42;
 }
 
+int getmyanswer() {
+    return 43;
+}
+
+
 class Task {
 public:
 	void solve(std::istream& in, std::ostream& out) {
 		int x;
 		in >> x;
-		out << x + getTheAnswer() << "\n";
+		out << x + getmyanswer() << "\n";
 	}
 };
 
